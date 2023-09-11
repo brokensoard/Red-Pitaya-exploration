@@ -5,5 +5,5 @@ This repository will contain ongoing experiments with the Red Pitaya 122.88-16 S
 
 The red_pitaya_barebones.tcl script was taken by building the LED Blink project and deleting all the IPs except the system 7 IP. Then, using the write_bd_tcl command, this script was created. It can be run to begin a new project by placing the script in the project directory. the new project will have a block design with the system 7 IP and all correct parameters to build on the STEM 122.88-16 SDR red pitaya board.
 
-#red-pitaya-edt
+# red-pitaya-edt
 The edt-red-pitaya.tcl script will recreate the edt project from teh xilinx tutorial. This example only sues the Zynq7 processing system and is then coupled with a hello world example that prints to the consle (via the USB console port). the main configurtion options that need to be set for the red-pitaya board are the DDR memory part, MT41J256M16 RE-125, and the DDR BUS Width, 16 bit.
